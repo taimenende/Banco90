@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#pagina{
+    width: 1600px;
+}
+header{
+    height: 70px;
+    background-color: red;
+}
+/* INÍCIO DO MENU NAVEGAÇÃO*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+#navLeft, #navRight{
+    width: 45%; /* a width era de 50%. reduzo pra 45% pra incluir na minha nav justify space around e deixar margens na esquerda e direita */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* gap me dá espaço entre os links */
+}
+#navRight {
+    display: flex;
+    justify-content: flex-end;
+}
+#navLeft a{
+    color:white;
+    text-decoration: none;
+    font-size: 9pt;   
+    font-weight: bold;
+}
+#navRight a{
+    color:white;
+    text-decoration: none;
+    font-size: 8pt;   
+    font-weight: bold;
+    border: solid 1px white;
+    border-radius: 6px;
+    padding: 10px;
+}
+#navRight a:hover{
+    background-color: rgb(250, 117, 117);
+    color: #302727;
+}
+/*FIM DO MENU NAVEGAÇÃO*/
+
+/* INÍCIO DO BANNER*/
+#banner{
+    height: 650px;
+    background-image: url(images/banner.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#textoBanner{
+    height: 200px;
+    width: 40%;
+    background-color: #f2871b8c;
+}
+h1{
+    text-align: center;
+    margin: 15px auto;
+}
+#textoBanner p{
+    font-size: 10pt;
+    margin: 30px 20px;
+
+}
+#textoBanner a{
+    color: white;
+    text-decoration: none;
+    font-size: 10pt;
+    background-color: #302727;
+    border: 2px solid #f2861b;
+    border-radius: 6px;
+    padding: 12px;
+    margin-left: 20px;
+}
+#textoBanner a:hover{
+    background-color: #f2861b;
+    color: black;
+    border: 2px solid white;
+}
+/*FIM DO BANNER*/
+/* INICIO PAGAMENTO */
+#pagTitulo{
+    margin: 25px;
+    text-align: center;
+}
+.pagamento{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.formaPag{
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-weight: bold;
+    border: 1px solid darkgray;
+}
+.formaPag:hover{
+    transform: scale(1.2);
+    border-color: #f2861b;
+}
+/* FINAL PAGAMENTO */
+
+/* INÍCIO CONTRATAÇÃO */
+.contratacao{
+    background-color: #302727;
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+}
+#textoContratacao{
+    width: 50%;
+    color: white;
+    text-align: left;
+    margin: 25px;
+}
+#textoContratacao h2{
+    margin-left: 16px;
+    margin-bottom: 10px;
+    
+}
+#imagemContratacao{
+    display: flex;
+}
+/* FINAL CONTRATAÇÃO */
+
+/* INÍCIO CARTÕES */
+.boxCliente{
+    text-align: center;
+    margin: 20px;
+}
+#cartoes{
+    height: 250px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cartao{
+    border-radius: 10px;
+
+}
+
+/* FINAL CARTÕES */
+
+/* INÍCIO HORÁRIOS */
+.horarios{
+    height: 350px;
+}
+.boxTabela{
+    width: 40%;
+    margin: 30px auto;
+    border: 1px solid #4d4a4a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgb(155, 155, 155);
+}
+table{
+    border-collapse: collapse;
+    font-size: 10pt;
+}
+#blank{
+    background-color: white;
+}
+th{
+    background-color: rgb(182, 6, 6);
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+
+}
+td{
+    border: 2px solid rgb(75, 74, 74);
+    padding: 15px;
+}
+
+
+/* FINAL HORÁRIOS */
